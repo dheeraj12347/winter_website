@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winter Solstice Celebration</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+</head>
+<body>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="winter-bg1.jpg" alt="Winter Background 1">
+  </div>
+  <div class="mySlides fade">
+    <img src="winter-bg2.jpg" alt="Winter Background 2">
+  </div>
+  <div class="mySlides fade">
+    <img src="winter-bg3.jpg" alt="Winter Background 3">
+  </div>
+</div>
+
+<header id="main-header">
+  <h1>Celebrating the Winter Solstice</h1>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#science">The Science</a></li>
+      <li><a href="#hemispheres">Solstice Across Hemispheres</a></li>
+      <li><a href="#celebrations">Global Celebrations</a></li>
+      <li><a href="#traditions">Solstice Traditions</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="introduction">
+  <h2 class="animate-on-scroll fade-in">Welcome to the Winter Solstice Celebration</h2>
+  <p id="intro-text" class="fade-in">
+    The winter solstice is a time of great significance around the world, symbolizing the triumph of light over darkness. 
+    It's the shortest day and longest night of the year, marking a powerful moment of transition. Cultures throughout history 
+    have celebrated this time with festivals, traditions, and reflections on renewal and rebirth. This special day brings hope 
+    and marks the beginning of longer days ahead.
+  </p>
+</section>
+
+<div class="dot-container">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<section id="science">
+    <h2>The Science Behind the Solstice</h2>
+    <p>The solstices occur due to the Earth's axial tilt of approximately 23.5 degrees relative to its orbital plane around the Sun. This tilt causes different parts of the Earth to receive varying amounts of sunlight throughout the year, leading to the changing seasons. During the winter solstice, one hemisphere is tilted the farthest away from the Sun, resulting in the shortest period of daylight.</p>
+    <p>At the exact moment of the solstice, the Sun reaches its lowest maximum elevation in the sky. In the Northern Hemisphere, this happens around December 21st or 22nd, when the Sun is directly over the Tropic of Capricorn at 23.5 degrees south latitude. In the Southern Hemisphere, the winter solstice occurs around June 20th or 21st, when the Sun is over the Tropic of Cancer at 23.5 degrees north latitude.</p>
+    <p>The solstice is a precise moment in time, but its effects are felt throughout the day. The term "solstice" comes from the Latin words "sol" (sun) and "sistere" (to stand still), because the Sun's apparent movement north or south comes to a stop before reversing direction.</p>
+
+<div id="santa-animation">
+    <img src="santaimg.jpg" alt="Santa" class="santa">
+</div>
+
+ <button id="play-audio">Play Santa's Ho Ho Ho!</button>
+    
+ <button id="stop-audio">Stop Santa's Ho Ho Ho!</button>
+
+ <audio id="santa-audio" loop preload="auto">
+     <source src="santa-claus-merry-christmas-ho-ho-ho-103426.mp3" type="audio/mpeg">
+     Your browser does not support the audio element.
+ </audio>
+</section>
+
+<section id="hemispheres">
+    <h2>Solstice Across Hemispheres</h2>
+    <p>The experience of the solstice differs greatly between the Northern and Southern Hemispheres due to their opposite seasons.</p>
+    
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+    </div>
+    
+    <article class="hemisphere" id="northern-hemisphere">
+        <h3>Northern Hemisphere</h3>
+        <p>Click to learn more about the Northern Hemisphere.</p>
+    </article>
+    <article class="hemisphere" id="southern-hemisphere">
+        <h3>Southern Hemisphere</h3>
+        <p>Click to learn more about the Southern Hemisphere.</p>
+    </article>
+    <div id="hemisphere-info" class="hemisphere-info">
+        <h3 id="hemisphere-title"></h3>
+        <img id="hemisphere-image" src="" alt="Hemisphere Image" class="hemisphere-image">
+        <p id="hemisphere-description"></p>
+    </div>
+</section>
+
+<section id="celebrations">
+    <h2>Global Celebrations of the Winter Solstice</h2>
+
+    <article class="celebration" id="newgrange">
+        <h3>Newgrange - Ireland</h3>
+        <p>The prehistoric monument of Newgrange is aligned with the rising sun on the winter solstice. Built over 5,000 years ago, it predates Stonehenge and the Egyptian pyramids. Each year, a beam of sunlight illuminates the inner chamber, symbolizing the victory of light over darkness.</p>
+    </article>
+
+    <article class="celebration" id="intiraymi">
+        <h3>Inti Raymi - Peru</h3>
+        <p>Although traditionally held during the June solstice, which is the winter solstice in the Southern Hemisphere, Inti Raymi is an ancient Incan festival honoring the Sun god Inti. The celebration includes music, dancing, and sacrifices, reflecting the importance of the Sun in agricultural societies.</p>
+    </article>
+
+    <article class="celebration" id="modranicht">
+        <h3>Modranicht - Anglo-Saxon Tradition</h3>
+        <p>Meaning "Mother's Night," Modranicht was observed by the Anglo-Saxons on the eve of the winter solstice. It was a time to honor female deities and ancestral mothers, symbolizing fertility and the rebirth of the Sun.</p>
+    </article>
+
+    <article class="celebration" id="koliada">
+        <h3>Koliada - Eastern Europe</h3>
+        <p>Koliada is a Slavic festival celebrated during the winter solstice. Traditions include singing carols, feasting, and lighting fires to symbolize the return of the Sun. The festival has influenced modern Christmas and New Year traditions in the region.</p>
+    </article>
+</section>
+
+<section id="traditions">
+    <h2>Common Solstice Traditions</h2>
+    <ul>
+        <li><strong>Bonfires and Candles:</strong> Lighting fires and candles is a widespread tradition to represent light overcoming darkness.</li>
+        <li><strong>Feasting:</strong> Communities gather to share meals, strengthening social bonds during the cold months.</li>
+        <li><strong>Gift-Giving:</strong> Exchanging gifts symbolizes goodwill and sharing abundance.</li>
+        <li><strong>Decorating with Evergreens:</strong> Using evergreen plants like holly and mistletoe represents eternal life and protection.</li>
+        <li><strong>Reflection and Renewal:</strong> The solstice is a time for introspection, setting intentions for the coming year.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+  <h2>Conclusion</h2>
+  <p>The winter solstice is a profound event that connects humanity across time and space. Despite differences in culture and climate, people around the world share common themes in their celebrations—hope, renewal, and the enduring human spirit. Understanding the science behind the solstice enhances our appreciation of these traditions and highlights our connection to the cosmos.</p>
+
+</section>
+
+<footer id="main-footer">
+  <p>&copy; 2024 Winter Solstice Celebrations</p>
+  <nav id="footer-nav">
+      <ul>
+          <li><a href="#main-header">Back to Top</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+      </ul>
+  </nav>
+</footer>
+
+<script src="script2.js"></script>
+</body>
+</html>
+
+
